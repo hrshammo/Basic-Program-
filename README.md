@@ -3,7 +3,7 @@
 This Repository is made to give beginners a head start for hacktoberfest, and to welcome you all to the open source community.
 ## Rules
 - Upload your code into Folders language wise. If you use cpp, upload it in cpp folder
-- Make sure to follow [Hamim Reza]([https://github.com/hrshammo]) & star the repo.     
+- Make sure to follow [Hamim Reza](https://github.com/hrshammo) & star the repo.     
 
 ## You can follow this steps to Merge your Pull request in my Repository
 
