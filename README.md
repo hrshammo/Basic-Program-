@@ -23,6 +23,6 @@ This Repository is made to give beginners a head start for hacktoberfest, and to
 ## Contributors 
 Thanks to these wonderful people ✨
 
-<a align="center" href="https://github.com/hrshammo/Basic-Program/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=hrshammo/Basic-Program&&max=817" />
+<a align="center" href="https://github.com/hrshammo/Basic-Program-/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hrshammo/Basic-Program-&&max=817" />
 </a>
