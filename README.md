@@ -19,3 +19,10 @@ This Repository is made to give beginners a head start for hacktoberfest, and to
 ## I'll make sure to merge it❤
 
 #Happy Coding!✨✨✨
+
+## Contributors 
+Thanks to these wonderful people ✨
+
+<a align="center" href="https://github.com/sanskarmalkhede/basic-programs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sanskarmalkhede/basic-programs&&max=817" />
+</a>
