@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:;
+    font-family:'Poppins', sans-serif;
 }
 body{
     width: 100%;
@@ -19,13 +19,16 @@ header img{
     filter: drop-shadow(0px 1px 5px #29292954);
 }
 .logo{
-      float: left;
-      left: 5%;
-position: relative;
+    float: left;
+    left: 5%;
+    position: relative;
 }
-.carti
-
-
+.carti{
+    width: 40px;
+    left: 0px;
+   top: 0px;
+   float: left;
+}
 .menu{
     text-align: center;
 }
@@ -83,17 +86,12 @@ position: relative;
 .cart:hover{
     background-color: rgb(99, 133, 245);
 }
-.carti{
-    width: 40px;
-    left: 0px;
-   top: 0px;
-   float: left;
-}
 .iphoneh{
     float: left;
     border-top: 1px solid rgba(102, 102, 102, 0.295);
     width: 100%;
     margin-top: -40px;
+    padding: 0 15px;
     box-shadow: 1px 1px  rgba(102, 102, 102, 0.295);
 }
 .iphoneh h2{
@@ -107,6 +105,7 @@ position: relative;
     color: rgb(66, 62, 62);
     top: -13px;
     position: relative;
+    padding-right: 15px;
 }
 .information{
     float: left;
@@ -124,6 +123,10 @@ position: relative;
     margin-top: 10px;
     margin-bottom: 30px;
 }
+.button-container {
+    display: flex;
+    gap: 10px;
+}
 .select{
     border: 2px solid #c36cbb;
 	background: transparent;
@@ -135,13 +138,14 @@ position: relative;
     text-align: initial;
     height: 55px;
     margin-top: 100px;
+    padding: 5px;
 }
 .select p{
     font-size: 14px;
 }
 .addcart{
     background: #c36cbb;
-	width: 150px;
+	width: 350px;
 	height: 50px;
 	cursor: pointer;
 	font-size: 16px;
@@ -186,10 +190,9 @@ position: relative;
 .copy{
     margin: -20px;
     background-color: black;
-   text-align: center;
+    text-align: center;
     top: 900px;
     position: relative;
-    
 }
 .copy a{
     text-decoration: none;
@@ -211,11 +214,11 @@ position: relative;
     .select{
         height: 100px;
         width: 30%;
+        padding: 8px;
     }
     .addcart{
-        height: 100px;
-        width: 30%;
-        top: -14px;
+        height: 65px;
+        width: 50%;
         position: relative;
     }
 }
@@ -233,6 +236,9 @@ position: relative;
     .search{
         left: 8%;
     }
+    .iphoneh {
+        padding: 5px 0;
+    }
     .iphoneh h2 {
         left: 2.5%;
     }
@@ -244,8 +250,9 @@ position: relative;
         margin-top: 0%;
     }
     .select{
-        font-size: 11px;
+        font-size: 10px;
         width: 42%;
+        padding: 5px;
     }
     .information h3 {
          margin-bottom: -70px;
@@ -291,6 +298,7 @@ position: relative;
     .iphoneh {
         top: 115px;
         position: relative;
+        padding: 10px 10px 8px 10px;
     }
     .iphoneh h2 {
         left: 0;
@@ -316,8 +324,7 @@ position: relative;
         left: 5%;
     }
     .addcart {
-        width: 80.5%;
-        left: 0%;
+        width: 81.5%;
         position: relative;
     }
     .information h1{
@@ -372,6 +379,7 @@ position: relative;
      .iphoneh {
         top: 75px;
         height: 39px;
+        padding: 15px 0 3px 0;
     }
      .iphoneh h2 {
         left: 4%;
@@ -398,9 +406,15 @@ position: relative;
         font-size: 10px;
         width: 49%;
         left: -10%;
+        margin: 5px;
+    }
+    .button-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 75px;
     }
     .addcart {
-        width: 98.5%;
-        left: -20%;
+        width: 50%;
+        left: 8.5%;   
     }
 }
